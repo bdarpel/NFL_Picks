@@ -361,7 +361,7 @@ function weekCurrentSpreadUpdate(){
   if(day < 3){
     week = week - 36;
   }
-  if(day > 3){
+  if(day >= 3){
     week = week - 35;
     if(day == 7){
       week = week - 1;
